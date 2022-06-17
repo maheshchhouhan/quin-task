@@ -7,7 +7,6 @@ type Props = {
 };
 
 const MapMarker: FC<Props> = ({ launch }) => {
-  console.log(launch.pad);
   return (
     <Marker
       key={launch.id}
